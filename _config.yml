@@ -1,0 +1,42 @@
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
+
+name: Movimiento Libertario de Colombia
+description: "Libertad y prosperidad"
+permalink: "/:year/:month/:day/:title"
+baseurl: "https://movimientolibertario.co"
+name: "Movimiento Libertario"
+author:
+  name: Movimiento Libertario
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico',
+          '.gitignore', 'README.md']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+# Markdown library
+markdown: rdiscount
+#   extensions: []
+
+highlighter: rouge
+
+prose:
+  rooturl: "app/_posts"
+  metadata:
+    _post/articles: |
+      published: false
+      layout: article
+      title: Your Post Title
+      abstract: Short summary of your article
+      author_twitter: libertarioco
+      author: Movimiento Libertario
+      categories:
+        - articles
