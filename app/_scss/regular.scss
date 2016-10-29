@@ -26,6 +26,57 @@ $foreground-white: #ffffff;
   padding: 0.7em 1.5em;
 }
 
+#header {
+  @extend .links-white-background;
+  background: #FFFFFF;
+  color: #FD5D01;
+
+  #menu {
+    ul {
+      font-size: 20px;
+      font-weight: 700;
+      list-style: none;
+      padding-left: 0;
+
+      li { 
+        float: left;
+      }
+    }
+  }
+
+  #social {
+    ul {
+      list-style: none;
+      li {
+        float: left;
+        margin-right: 0.5em;
+      }
+    }
+
+    a {
+      font-weight: 700;
+    }
+  }
+}
+
+#content-page {
+  width: 70%;
+  margin: 0 auto;
+
+  #manifiesto {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      width: 63%;
+      background: #FFFFFF;
+      color: #FD5D01;
+      padding: 0.3em 1em 2em 1em;
+      margin: 1em auto;
+    }
+  }
+}
+
 #showroom {
   @extend .links-white-background;
   background: #ffffff;
