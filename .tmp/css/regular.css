@@ -1,9 +1,9 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\000031}}
+/* line 1, ../../app/_scss/regular.scss */
 ul {
   padding-left: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\000039}}
+/* line 9, ../../app/_scss/regular.scss */
 .links-white-background a, #showroom a, #content a {
   color: #FD5D01;
   text-decoration: none;
@@ -11,70 +11,70 @@ ul {
   padding-right: 0.2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000318}}
+/* line 18, ../../app/_scss/regular.scss */
 .pull-left {
   float: left !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000321}}
+/* line 21, ../../app/_scss/regular.scss */
 .pull-right {
   float: right !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000325}}
+/* line 25, ../../app/_scss/regular.scss */
 .container {
   padding: 0.7em 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000329}}
+/* line 29, ../../app/_scss/regular.scss */
 #showroom {
   background: #ffffff;
   color: #FD5D01;
   min-height: 20em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000337}}
+/* line 37, ../../app/_scss/regular.scss */
 #showroom #menu ul {
   font-size: 20px;
   font-weight: 700;
   list-style: none;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000346}}
+/* line 46, ../../app/_scss/regular.scss */
 #showroom #social ul {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000348}}
+/* line 48, ../../app/_scss/regular.scss */
 #showroom #social ul li {
   float: left;
   margin-right: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000354}}
+/* line 54, ../../app/_scss/regular.scss */
 #showroom #social a {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000361}}
+/* line 61, ../../app/_scss/regular.scss */
 #form #mc_embed_signup {
   background: #fd5d01;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000366}}
+/* line 66, ../../app/_scss/regular.scss */
 #content {
   background: #ffffff;
   color: #FD5D01;
   min-height: 315px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000372}}
+/* line 72, ../../app/_scss/regular.scss */
 #content #news {
   width: 350px;
   margin-left: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000375}}
+/* line 75, ../../app/_scss/regular.scss */
 #content #news ul {
   list-style: none;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ghostbar\/code\/src\/github\.com\/movimientolibertario\/web\/app\/_scss\/regular\.scss}line{font-family:\0000378}}
+/* line 78, ../../app/_scss/regular.scss */
 #content #news ul li {
   padding-bottom: 8px;
 }
