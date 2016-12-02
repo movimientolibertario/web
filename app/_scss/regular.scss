@@ -22,10 +22,6 @@ $foreground-white: #ffffff;
   float: right !important;
 }
 
-.container {
-  padding: 0.7em 1.5em;
-}
-
 #header {
   @extend .links-white-background;
   background: #FFFFFF;
@@ -78,57 +74,245 @@ $foreground-white: #ffffff;
 }
 
 #showroom {
-  @extend .links-white-background;
-  background: #ffffff;
-  color: #FD5D01;
+  background: url('../img/slider-00.png') no-repeat center center fixed;
+  background-size: cover;
 
-  min-height: 20em;
+  min-height: 30em;
 
-  #menu {
-    ul {
-      font-size: 20px;
-      font-weight: 700;
-      list-style: none;
-      padding-left: 0;
+  #main-logo {
+    float: right;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 10%;
+  }
+}
+
+#menu {
+  background: #BD5C2B;
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      display: inline;
+      margin-left: 0.4em;
+      margin-right: 0.4em;
     }
   }
 
   #social {
-    ul {
-      list-style: none;
-      li {
-        float: left;
-        margin-right: 0.5em;
+    padding-left: 7em;
+  }
+
+  #links {
+    padding-right: 7em;
+  }
+}
+
+#youtube {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+
+	.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
+}
+
+.content-space {
+  width: 55%;
+  margin: 0 auto;
+  .content {
+    padding: 0.3em 1.5em;
+    background: #dbdbdb;
+    color: #262626;
+    width: 14em;
+  }
+
+  .unete {
+    padding: 1em 1.5em;
+    background: #dbdbdb;
+    color: #262626;
+    font-weight: bold;
+    width: 14em;
+    text-align: center;
+  }
+
+  padding-top: 5em;
+  padding-bottom: 9em;
+}
+
+#foro {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    float: left;
+  }
+
+  .unete {
+    float: right;
+  }
+
+  background: url('../img/foro.png') no-repeat center center fixed;
+  background-size: cover;
+
+  min-height: 20em;
+}
+
+#asamblea {
+  img { 
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    float: right;
+  }
+
+  .unete {
+    float: left;
+  }
+
+  background: url('../img/asamblea.png') no-repeat center center fixed;
+  background-size: cover;
+
+  min-height: 20em;
+}
+
+#famous-quote {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  background: url('../img/famous-quote.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #262626;
+
+  p {
+    font-style: italic;
+    text-align: right;
+  }
+
+  p.author {
+    font-style: normal;
+  }
+
+  #famous-quote-q {
+    max-width: 35%;
+    float: right;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-right: 15%;
+  }
+
+  min-height: 20em;
+}
+
+.section-title {
+  text-align: right;
+  font-size: 1em;
+  padding-right: 2em;
+  background: url('../img/Titulos.png') no-repeat right;
+  min-height: 42px;
+  padding-top: 15px;
+}
+
+#posts {
+
+  .section-title {
+    margin-right: 12em;
+  }
+
+  background: white;
+  margin: 0 auto;
+  ul {
+    padding-left: 0;
+
+    list-style: none;
+
+    .posts-column {
+      width: 20%;
+      float: left;
+      position: relative;
+      background: #BD5C2B;
+    } 
+    .posts-column#zero {
+      left: 15%;
+    }
+
+    .posts-column#one {
+      left: 20%;
+    }
+
+    .posts-column#two {
+      left: 25%;
+    }
+
+    li {
+      display: inline-block;
+      margin-top: 1em;
+      margin-bottom: 5em;
+
+      .title {
+        a {
+          font-weight: bold;
+          color: white;
+          text-decoration: none;
+        }
+        background: #BD5C2B;
+
+        padding: 0.3em 1em;
+      }
+
+      .content {
+        background: #BD5C2B;
+        font-size: 0.7em;
+
+        padding: 0.3em 1em;
+        padding-bottom: 2em;
       }
     }
-
-    a {
-      font-weight: 700;
-    }
   }
 }
 
-#form {
-  #mc_embed_signup {
-    background: #fd5d01;
-  }
-}
+#footer {
+  #pre-footer {
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
 
-#content {
-  @extend .links-white-background;
-  background: #ffffff;
-  color: #FD5D01;
-  min-height: 315px;
-
-  #news {
-    width: 350px;
-    margin-left: 1em;
-    ul {
+    ul#social {
+      padding-top: 3em;
       list-style: none;
       padding-left: 0;
       li {
-        padding-bottom: 8px;
+        display: inline;
+        margin-left: 0.4em;
+        margin-right: 0.4em;
       }
     }
+  }
+  #final-footer {
+    background: #111111;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
   }
 }
