@@ -337,3 +337,82 @@ $foreground-white: #ffffff;
     padding: 1em 0;
   }
 }
+
+@media only screen and (max-width: 70em) {
+  .pull-right {
+    float: none !important;
+  }
+
+  .pull-left {
+    float: none !important;
+  }
+
+
+  #menu {
+    #social {
+      padding-top: 2em;
+      margin-top: 0;
+    }
+
+    #links {
+      padding-right: 0;
+      display: inline-block;
+      padding-left: 3em;
+    }
+  }
+
+  .content-space {
+    width: 72%;
+  }
+
+  #foro {
+    .content {
+      float: none;
+    }
+
+    .unete {
+      float: none;
+    }
+  }
+
+  #asamblea {
+    .content {
+      float: none;
+    }
+
+    .unete {
+      float: none;
+    }
+  }
+
+  #famous-quote {
+    #famous-quote-q {
+      max-width: 72%;
+    }
+  }
+
+  #posts {
+    ul {
+      li.posts-column {
+        display: block;
+        float: none;
+        width: 72%;
+
+        padding-bottom: 0.6em;
+        margin-bottom: 1em;
+      }
+
+      .posts-column#zero {
+        left: 15%;
+      }
+
+      .posts-column#one {
+        left: 15%;
+      }
+
+      .posts-column#two {
+        left: 15%;
+      }
+    }
+  }
+}
