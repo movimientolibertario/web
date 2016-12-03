@@ -224,6 +224,27 @@ $foreground-white: #ffffff;
   min-height: 20em;
 }
 
+#news {
+  ul {
+    list-style: none;
+    padding-left: none;
+
+    li {
+      display: inline-block;
+    
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        width: auto;
+      }
+    }
+  }
+}
+
 .section-title {
   text-align: right;
   font-size: 1em;
