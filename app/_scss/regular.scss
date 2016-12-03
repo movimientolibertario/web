@@ -392,6 +392,9 @@ $foreground-white: #ffffff;
   }
 
   #posts {
+    .section-title {
+      margin-right: 3em;
+    }
     ul {
       li.posts-column {
         display: block;
