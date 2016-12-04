@@ -88,7 +88,7 @@ $foreground-white: #ffffff;
 }
 
 #menu {
-  background: #BD5C2B;
+  background: #E75E1D;
   color: white;
 
   a {
@@ -129,6 +129,28 @@ $foreground-white: #ffffff;
     width: 100%;
     height: 100%;
 	}
+}
+
+#quienes {
+
+  background: url('../img/famous-quote.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #262626;
+
+  #quienes-q {
+    max-width: 50%;
+    float: left;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 15%;
+
+    p {
+      font-style: italic;
+      text-align: left;
+    }
+  }
+
+  min-height: 20em;
 }
 
 .content-space {
@@ -227,19 +249,22 @@ $foreground-white: #ffffff;
 #news {
   ul {
     list-style: none;
-    padding-left: none;
+    padding-left: 0;
+    margin: 0;
 
     li {
-      display: inline-block;
+      display: block;
+      float: left;
     
-      width: 200px;
-      height: 200px;
+      width: 25%;
+      height: auto;
       overflow: hidden;
+
+      margin: 0;
+      padding: 0;
 
       img {
         width: 100%;
-        height: auto;
-        width: auto;
       }
     }
   }
@@ -258,6 +283,7 @@ $foreground-white: #ffffff;
 
   .section-title {
     margin-right: 12em;
+    margin-top: 0;
   }
 
   background: white;
@@ -415,6 +441,14 @@ $foreground-white: #ffffff;
 
       .posts-column#two {
         left: 15%;
+      }
+    }
+  }
+
+  #news {
+    ul {
+      li {
+        width: 50%;
       }
     }
   }
