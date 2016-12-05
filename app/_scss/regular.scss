@@ -170,6 +170,11 @@ $foreground-white: #ffffff;
     font-weight: bold;
     width: 14em;
     text-align: center;
+
+    a {
+      color: #262626;
+      text-decoration: none;
+    }
   }
 
   padding-top: 5em;
