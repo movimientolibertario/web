@@ -1,11 +1,12 @@
-var h = document.getElementById("menu");
+var h = document.getElementById('menu');
 var stuck = false;
-var stickPoint = getDistance();
 
 function getDistance() {
   var topDist = h.offsetTop;
   return topDist;
 }
+
+var stickPoint = getDistance();
 
 window.onscroll = function(e) {
   var distance = getDistance() - window.pageYOffset;
@@ -18,4 +19,4 @@ window.onscroll = function(e) {
     h.style.position = 'static';
     stuck = false;
   }
-}
+};
