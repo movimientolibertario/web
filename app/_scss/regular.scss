@@ -4,10 +4,13 @@ ul {
 
 $background-blue-url: #13aae1;
 $foreground-white: #ffffff;
+$main-orange: #ff6c2f;
+$process-black-c: #27251F;
+$process-black-u: #4E4A47;
 
 .links-white-background {
   a {
-    color: #FD5D01;
+    color: $main-orange;
     text-decoration: none;
     padding-left: 0.2em;
     padding-right: 0.2em;
@@ -25,7 +28,7 @@ $foreground-white: #ffffff;
 #header {
   @extend .links-white-background;
   background: #FFFFFF;
-  color: #FD5D01;
+  color: $main-orange;
 
   #menu {
     ul {
@@ -66,7 +69,7 @@ $foreground-white: #ffffff;
     li {
       width: 63%;
       background: #FFFFFF;
-      color: #FD5D01;
+      color: $main-orange;
       padding: 0.3em 1em 2em 1em;
       margin: 1em auto;
     }
@@ -88,7 +91,7 @@ $foreground-white: #ffffff;
 }
 
 #menu {
-  background: #E75E1D;
+  background: $main-orange;
   color: white;
   width: 100%;
   z-index: 9999;
@@ -304,7 +307,7 @@ $foreground-white: #ffffff;
       width: 20%;
       float: left;
       position: relative;
-      background: #BD5C2B;
+      background: $main-orange;
     } 
     .posts-column#zero {
       left: 15%;
@@ -329,13 +332,13 @@ $foreground-white: #ffffff;
           color: white;
           text-decoration: none;
         }
-        background: #BD5C2B;
+        background: $main-orange;
 
         padding: 0.3em 1em;
       }
 
       .content {
-        background: #BD5C2B;
+        background: $main-orange;
         font-size: 0.7em;
 
         padding: 0.3em 1em;
@@ -347,7 +350,7 @@ $foreground-white: #ffffff;
 
 #footer {
   #pre-footer {
-    background: #333333;
+    background: $process-black-u;
     color: white;
     text-align: center;
     padding: 5em 0;
@@ -364,7 +367,7 @@ $foreground-white: #ffffff;
     }
   }
   #final-footer {
-    background: #111111;
+    background: $process-black-c;
     color: white;
     text-align: center;
     padding: 1em 0;
